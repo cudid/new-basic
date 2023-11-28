@@ -1,0 +1,28 @@
+
+package javaapplication11;
+
+/**
+ * Nama  : Yudi Afandi
+ * Kelas : Sistem informasi (A)
+ * tanggal : / / 
+ * Deskripsi :
+ */
+public class Proyek {
+ public static void main(String[] args) {
+       
+            System.out.println(pembagian(10, 2));
+        
+          
+ }
+    
+
+    public static String pembagian(int x, int y) {
+        try {
+            double hasil = x / y;
+            return "sukses";
+        } catch (ArithmeticException e) {
+            return e.getMessage();
+        }
+    }
+}
+
